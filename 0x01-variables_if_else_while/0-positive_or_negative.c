@@ -1,11 +1,16 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-/*
- *Description : the prgram checks is int n is positive or negative
- *main : Entry point - return always 0 if sucess
+
+/**
+ * main-Entry point
+ * Description: 'the program prints the num n and determine if it
+ * is + or - or 0
+ * Return: Always 0 (Success)
  */
+
+
+
 
 /* betty style doc for function main goes there */
 int main(void)
