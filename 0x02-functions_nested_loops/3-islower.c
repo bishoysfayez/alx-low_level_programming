@@ -3,17 +3,17 @@
 /**
  * _islower-Entry point
  * Description: prints if lowercase char.
- * Return: 0 if c is lowercase, 0 if otherwise
+ * Return: 1 if c is lowercase, 0 if otherwise
  */
 int _islower(char c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
-		return (0);
+		return (1);
 	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 
 }
