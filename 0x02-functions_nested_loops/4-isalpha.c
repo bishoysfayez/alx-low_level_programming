@@ -5,9 +5,13 @@
  * Description: prints if a char is a letter.
  * Return: 0 if c is lowercase, 0 if otherwise
  */
-int _islower(char c)
+int _islower(int c)
 {
-	if (c >= 'A' && c <= 'z')
+	if (c >= 65 && c <= 90)
+	{
+		return (1);
+	}
+	else if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
