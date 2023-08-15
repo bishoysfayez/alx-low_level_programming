@@ -1,24 +1,20 @@
 #include "main.h"
 
 /**
- * print _sign-Entry point
- * Description: prints if int n is + or - or 0.
+ * _abs -Entry point
+ * Description: prints abd value of int n
  * @n : int to be checked
- * Return: 0 if 0  -1 if -ve 1 if +ve
+ * Return: abd value of int n
  */
-int print _sign(int n)
+int _abs(int n)
 {
-	if (n > 0)
+	if (n < 0)
 	{
-		return (1);
-	}
-	else if (n < 0)
-	{
-		return (-1);
+		return (-1 * n);
 	}
 	else
 	{
-		return (0);
+		return (n);
 	}
 
 }
