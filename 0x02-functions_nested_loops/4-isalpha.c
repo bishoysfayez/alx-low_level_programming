@@ -3,6 +3,7 @@
 /**
  * _isalpha-Entry point
  * Description: prints if an int c is a letter.
+ * @c : char to be checked
  * Return: 0 if c is lowercase, 0 if otherwise
  */
 int _isalpha(int c)
