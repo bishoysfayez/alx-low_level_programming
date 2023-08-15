@@ -6,7 +6,7 @@
  * @n : int to be checked
  * Return: last digit value of int n
  */
-int _abs(int n)
+int print_last_digit(int n)
 {
 	if (n < 0)
 	{
