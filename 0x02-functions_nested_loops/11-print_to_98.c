@@ -4,26 +4,56 @@
 /**
  * print_to_98-Entry point
  * Description: print nums to 98 starting from n
- * @a : int to be start point
- * @b : the seconf int
- * Return: sum a + b
+ * @n : int to be printed to - sart point
+ * Return: void
  */
 
 void print_to_98(int n)
 {
-	int counter = 0;
-	printf("%i, ", n);
-	while (n < 98)
-	{
-		printf("%i", %n)
+	int i, j;
 
-			if (counter != n - 1)
-			{
-				ptintf(", ");
-			}
-			else if(counter == n - 1)
-			{
-				printf("\n");
-			}
+	if (n <= 98)
+	{
+		for (i = n; i <= 98; i++)
+		{
+			if (i != 98)
+				printf("%d, ", i);
+			else if (i == 98)
+				printf("%d\n", i);
+		}
+	} else if (n >= 98)
+	{
+		for (j = n; j >= 98; j--)
+		{
+			if (j != 98)
+				printf("%d, ", j);
+			else if (j == 98)
+				printf("%d\n", j);
+		}
 	}
-}				
+}
+void print_to_98(int n)
+{
+	int i, j;
+
+	if (n <= 98)
+	{
+		for (i = n; i <= 98; i++)
+		{
+			if (i != 98)
+				printf("%d, ", i);
+			else if (i == 98)
+				printf("%d\n", i);
+		}
+	} else if (n >= 98)
+	{
+		for (j = n; j >= 98; j--)
+		{
+			if (j != 98)
+				printf("%d, ", j);
+			else if (j == 98)
+				printf("%d\n", j);
+		}
+	}
+}
+
