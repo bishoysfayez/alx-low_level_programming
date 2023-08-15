@@ -1,24 +1,19 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10-Entry point
- * Description: prints lowercase alphabet 10 times
- * Return: Always void (Success)
+ * _islower-Entry point
+ * Description: prints if lowercase char.
+ * Return: 0 if c is lowercase, 0 if otherwise
  */
-void print_alphabet_x10(void)
-
+int _islower(char c)
 {
-	char i;
-	
-	int j;
-	for (j = 0; j < 10; j++)
+	if (c >= 'a' && c <= 'z')
 	{
-
-
-		for (i = 'a'; i <= 'z'; i++)
-		{
-			_putchar(i);
-		}
-		_putchar('\n');
+		return (0);
 	}
+	else
+	{
+		return (1);
+	}
+
 }
