@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print _sign-Entry point
+ * print_sign-Entry point
  * Description: prints if int n is + or - or 0.
  * @n : int to be checked
  * Return: 0 if 0  -1 if -ve 1 if +ve
