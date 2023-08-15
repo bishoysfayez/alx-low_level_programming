@@ -6,7 +6,7 @@
  * @n : int to be checked
  * Return: 0 if 0  -1 if -ve 1 if +ve
  */
-int print_sign(int n)
+int print _sign(int n)
 {
 	if (n > 0)
 	{
