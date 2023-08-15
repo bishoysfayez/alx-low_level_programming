@@ -3,30 +3,29 @@
 /**
  * jack_bauer-Entry point
  * Description: prints every minute form 00:00 to 23:59
-  * Return: always 0
+ * Return: always 0
  */
 void jack_bauer(void)
 {
-	int i, j, k, n;
+	int i, j;
 
-	for (i = 0; i < 6; i++)
+	i = 0;
+
+	while (i < 24)
 	{
-		for (j = 0; j < 10; j++)
+		j = 0;
+		while (j < 60)
 		{
-			for (k = 0; k < 6; k++)
-			{
-				for (n = 0; n < 10; n++)
-				{
-					_putchar(i + 48);
-					_putchar(j + 48);
-					_putchar(':');
-					_putchar(k + 48);
-					_putchar(n + 48);
-					_putchar('\n');
-				}
-			}
-
+			_putchar((i / 10) + '0');
+			_putchar((i % 10) + '0');
+			_putchar(':');
+			_putchar((j / 10) + '0');
+			_putchar((j % 10) + '0');
+			_putchar('\n');
+			j++;
 		}
+		i++;
 	}
+}
 
 }
