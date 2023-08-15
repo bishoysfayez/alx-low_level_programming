@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * _sign-Entry point
+ * print _sign-Entry point
  * Description: prints if int n is + or - or 0.
  * @n : int to be checked
  * Return: 0 if 0  -1 if -ve 1 if +ve
  */
-int _sign(int n)
+int print _sign(int n)
 {
 	if (n > 0)
 	{
