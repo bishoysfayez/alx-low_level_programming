@@ -6,11 +6,7 @@
  *  to the end of the string pointed to by @dest.
  *  @dest: A pointer to the string to be concatenated upon.
  *  @src: The source string to be appended to @dest.
- *  Return: char * dest (Success)
- *  function _strlen
- *  Description : finds length of a string
- *  @s: String to get its len
- *  Return : int length of strin
+ *  Return: char * dest (Sucess)
  */
 int _strlen(char *s);
 char *_strcat(char *dest, char *src)
@@ -35,13 +31,11 @@ char *_strcat(char *dest, char *src)
 	return (dest);
 }
 
-
-/*
- * Description : finds length of a string
- * @s: String to get its len
- * Return : int length of string
+/**
+ * _strlen- returns the length of a string
+ * @s: String whose length we will determine
+ * Return: Length of s
  */
-
 
 int _strlen(char *s)
 {
