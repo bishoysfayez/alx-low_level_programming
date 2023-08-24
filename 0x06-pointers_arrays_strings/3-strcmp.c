@@ -33,8 +33,6 @@ int _strcmp(char *s1, char *s2)
 				return (-1);
 			}
 		}
-		return (1);
-
 	}
 	else if (_strlen(s1) > _strlen(s2))
 	{
