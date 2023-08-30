@@ -16,7 +16,7 @@ int accpets_division(int x, int divisor)
 	{
 		return (1);
 	}
-	return (accpets_division(x, divisor - 1));
+	return (accpets_division(x, divisor + 1));
 }
 
 /**
