@@ -2,18 +2,16 @@
 
 /**
 *  _strlen_recursion-Entry point
-*  Description:  prints string reversed.
-*  @s : string to be printed
-*  Return: void (Sucess)
+*  Description:  get string length.
+*  @s : string to get its length
+*  Return: int string length (Sucess)
 */
 int _strlen_recursion(char *s)
 {
-	int count = 0;
-
 	if (*s == '\0')
 	{
-		return (count);
+		return (0);
 	}
-	count++;
-	_strlen_recursion(s + 1);
+	s += 1;
+	return ((_strlen_recursion(s)) + 1);
 }
